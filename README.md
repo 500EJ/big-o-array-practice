@@ -5,97 +5,97 @@ justification for your answer. Assume `arr` is an array of length _n_.
 
 ## `arr.push()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(1)
+Space complexity: O(1)
+Justification: It will always take the same amount of time and space to add an element to the end of an array.
 
 [push on MDN][push]
 
 ## `arr.pop()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(1)
+Space complexity: O(1)
+Justification: It will always take the same amount of time and space to remove an element to the end of an array.
 
 [pop on MDN][pop]
 
 ## `arr.shift()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(n)
+Space complexity: O(1)
+Justification: It has to shift each element one index lower and it modifies the array in place.
 
 [shift on MDN][shift]
 
 ## `arr.unshift()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(n)
+Space complexity: O(1)
+Justification: It has to shift each existing element one index higher and it modifies the array in place.
 
 [unshift on MDN][unshift]
 
 ## `arr.splice()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(n)
+Space complexity: O(1)
+Justification: In the worst case scenario, the elements would be inserted at the beginning of the array, which is modified in place.
 
 [splice on MDN][splice]
 
 ## `arr.slice()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(n)
+Space complexity: O(n)
+Justification: The elements have to be copied to a new array of length n or less.
 
 [slice on MDN][slice]
 
 ## `arr.indexOf()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(n)
+Space complexity: O(1)
+Justification: In the worst case, every element has to be iterated through to find the index.
 
 [indexOf on MDN][indexof]
 
 ## `arr.map()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(n)
+Space complexity: O(n)
+Justification: Every element will be iterated through and a new array of length n will be created.
 
 [map on MDN][map]
 
 ## `arr.filter()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(n)
+Space complexity: O(n)
+Justification: Every element will be iterated through and a new array of length n or less will be created.
 
 [filter on MDN][filter]
 
 ## `arr.reduce()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(n)
+Space complexity: O(1)
+Justification: Every element will be iterated through and one piece of data will be returned.
 
 [reduce on MDN][reduce]
 
 ## `arr.reverse()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(n)
+Space complexity: O(1)
+Justification: The complexity of array reverse grows with the length of the array, which is modified in place.
 
 [reverse on MDN][reverse]
 
 ## `[...arr]`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(n)
+Space complexity: O(n)
+Justification: The elements have to be copied to a new array of length n.
 
 [spread on MDN][spread]
 
